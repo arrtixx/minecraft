@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AdventureAmplified - Minecraft Java DataPack</title>
+    <title>AdventureAmplified - Minecraft Java data pack</title>
   </head>
   <body>
+    <a href="../resources/aa/datapack.zip" download id="downloadPackLinkDP"></a>
+    <a href="../resources/aa/resourcepack.zip" download id="downloadPackLinkRP"></a>
     <h1 style="font-size:250%;color:green">AdventureAmplified</h1>
     <img src="../resources/aa/pack.png" alt="DataPack icon">
+    <h2 style="font-size:200%">About</h2>
+    <p style="font-size:175%;color:blue">This data pack changes Minecraft quite a bit.
+    It adds new items, structures and changes a lot of game techniques.
+    I forgot to mention, it makes your life worse :)
+    So download it for free down below!</p>
+    <button style="font-size:200%;color:orange" onclick="downloadPack()">Download Zip</button>
+    <script>
+      function downloadPack() {
+        document.getElementById("downloadPackLinkDP").click()
+        document.getElementById("downloadPackLinkRP").click()
+      }
+    </script>
   </body>
 </html>
